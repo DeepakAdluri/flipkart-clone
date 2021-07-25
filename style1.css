@@ -1,0 +1,192 @@
+header{
+    height:10vh;
+    background-color: blue;
+}
+
+
+div ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+div ul li{
+   padding :20px 28px 4px 16px;
+
+}
+
+
+.profile{
+    border-radius: 50%;
+    
+    
+}
+.logo{
+height:45%;
+float: right;
+display: flex;
+align-items: center;
+
+}
+.search-box{
+    background: url("search icon.png") center right 10px    no-repeat;
+    height: 30px;
+    background-color: aliceblue;
+    padding: 15px 222px 15px 0px;
+    background-size: 4%;
+    border: 2px solid white;
+}
+.signin{
+    margin: 8px -24px 0px 0px;
+}
+.signup{
+    margin: 8px -24px 0px 0px;
+}
+.signin a {
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 4px 5px 4px;
+    border: 1px solid #dbdbdb;
+    text-decoration: none;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;  
+    
+}
+.signup a {
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 4px 5px 4px;
+    border: 1px solid #dbdbdb;
+    text-decoration: none;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    
+}
+
+.signin  a:hover{
+    color: white;
+    background-color:#2874f0;
+}
+.signup  a:hover{
+    color: white;
+    background-color:#2874f0;
+}
+
+
+.basket-icon{
+    padding-top: 4px;
+}
+
+.item-pic:hover {
+    width: 220px;
+    transition: .2s;
+    transform: scale(1.15);
+  
+    
+}
+
+
+.item-adds{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #eceaea
+}
+
+
+.items{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: scroll;
+    width: 100%;
+}
+
+.header{
+    margin: 13px auto;
+    
+}
+.heading{
+    margin: 5px 0px 6px 0px;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    padding-left: 41px;
+    padding-top: 10px;
+    justify-content: left;
+    
+    
+}
+
+
+.item{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 0px 8px 0px 8px;
+}
+
+
+.item-pic{
+    height: 23vh;
+    width: 15vw;
+}
+ .item-speci{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 3px 0px;
+ }
+ .item-speci ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    color: white;
+    height:13vh;
+    background-color: rgba(10, 8, 8, 0.815);
+   
+}
+
+.foot{
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+}
